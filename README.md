@@ -69,3 +69,5 @@ You can even check Redis yourself to see the cached data.
     KEYS *
     ```
     You will see a new key, like `users:user:1`, which confirms that your data is in the cache.
+
+https://dev.to/sivakumarmanoharan/caching-in-fastapi-unlocking-high-performance-development-20ej
