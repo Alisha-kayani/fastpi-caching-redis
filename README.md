@@ -13,6 +13,7 @@ This guide will teach you how to build a simple web API with FastAPI and make it
     ```bash
     mkdir my-fastapi-project
     cd my-fastapi-project
+    uv init .
     ```
 2.  Create a file named `main.py` inside this folder and paste the entire Python code into it.
 
@@ -43,7 +44,7 @@ Your code needs a Redis server to work. The easiest way to get one is with Docke
 Now, go back to your **first terminal window** and start the application.
 
 ```bash
-uvicorn main:app --reload
+uv run main.py
 ```
 
 You should see a message saying the server is running. It's now ready to accept requests\!
